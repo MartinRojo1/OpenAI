@@ -1,3 +1,5 @@
+import openai
+
 prompt = "Hello, my name is"
 response = openai.Completion.create(
   engine="text-davinci-002",
